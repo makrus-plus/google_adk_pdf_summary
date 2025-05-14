@@ -1,2 +1,14 @@
 # macOS specific files
 .DS_Store
+
+# Environments
+#.env # We want to keep .env files as a referene for the ADK
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
