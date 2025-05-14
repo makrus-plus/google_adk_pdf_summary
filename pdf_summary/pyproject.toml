@@ -1,0 +1,26 @@
+[project]
+name = "pdf-summarizer"
+version = "0.1"
+description = "PDF Summary Agent using Google ADK"
+authors = [
+    {name = "Matt Kruse",email = "mattkruse@google.com"}
+]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+python = "^3.9"
+absl-py = "^2.2.1"
+google-adk = ">=0.0.2"
+google-cloud-bigquery = "^3.30.0"
+google-genai = "^1.5.0"
+pdfplumber = "^0.11.5"
+pydantic = "^2.10.6"
+google-cloud-aiplatform = {extras = ["adk", "agent-engines"], version = "^1.88.0"}
+
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
