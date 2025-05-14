@@ -7,8 +7,8 @@ authors = [
 ]
 license = {text = "Apache-2.0"}
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
+
+[tool.poetry.dependencies]
 python = "^3.9"
 absl-py = "^2.2.1"
 google-adk = ">=0.0.2"
@@ -17,8 +17,6 @@ google-genai = "^1.5.0"
 pdfplumber = "^0.11.5"
 pydantic = "^2.10.6"
 google-cloud-aiplatform = {extras = ["adk", "agent-engines"], version = "^1.88.0"}
-
-]
 
 
 [build-system]
